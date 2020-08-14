@@ -29,18 +29,18 @@ tracker.delegate = self
 handle landmark and rendered example pixelBuffer
 
 ```
-func handTracker(_ handTracker: HandTracker!, didOutputLandmarks landmarks: [Landmark]!) {
+func upperBodyPoseTracker(_ tracker: UpperBodyPoseTracker!, didOutputLandmarks landmarks: [Landmark]!) {
     print(landmarks.count)
 }
     
-func handTracker(_ handTracker: HandTracker!, didOutputPixelBuffer pixelBuffer: CVPixelBuffer!) {
+func upperBodyPoseTracker(_ tracker: UpperBodyPoseTracker!, didOutputPixelBuffer pixelBuffer: CVPixelBuffer!) {
     
 }
 ```
 
 ## TODO
 
-- [x] bitcode
+- [ ] bitcode
 - [ ] x86_64 / i386 
 
 ## Links
